@@ -15,4 +15,8 @@
 
 Add your answers to this markdown file.
 
-#1
+# 1
+1a) The first reason I can think of as to why the asymptotic analysis may be misleading with respect to actual performace is obviously hardware.
+In many cases theory depends on the ideal conditions to any given experiment, but the one thing that varies most user to user in my mind is hardware.
+Many people can run programs much faster if the hardware is better, a computer that that is 2 months old is almost assuredly faster than the 5 year old computer
+with faster calculating compentents and a greater memory capacity.
