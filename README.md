@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/FgMJElkj)
 # Theory vs. Practice
 
 - List 3 reasons why asymptotic analysis may be misleading with respect to
@@ -13,3 +14,9 @@
   complexity suggests a different time.
 
 Add your answers to this markdown file.
+
+# 1
+1a) The first reason I can think of as to why the asymptotic analysis may be misleading with respect to actual performace is obviously hardware.
+In many cases theory depends on the ideal conditions to any given experiment, but the one thing that varies most user to user in my mind is hardware.
+Many people can run programs much faster if the hardware is better, a computer that that is 2 months old is almost assuredly faster than the 5 year old computer
+with faster calculating compentents and a greater memory capacity.
