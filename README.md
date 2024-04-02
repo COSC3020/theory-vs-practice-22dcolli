@@ -20,3 +20,11 @@ Add your answers to this markdown file.
 In many cases theory depends on the ideal conditions to any given experiment, but the one thing that varies most user to user in my mind is hardware.
 Many people can run programs much faster if the hardware is better, a computer that that is 2 months old is almost assuredly faster than the 5 year old computer
 with faster calculating compentents and a greater memory capacity.
+1c) The second reason I can think of for the asymptotic analysis being misleading is simular to differences in hardware, but only now in your compiler and or coding language. What I mean by that
+is that asymptotic analysis does not account for in any way, you can have the same process coded out in two different languages but differences in how those languages operate may effect the runtime and memory usage.
+On that same tangent, if one algorithm has to work with multiplication of integers over and over, some compilers may use standard integers or floating point values depending on what it thinks is best. 
+This might eventually lead to a different outcome than the asymptotic analysis may have indicated.
+1c)The final reason that asymptotic analysis may be misleading is that it also does not account for the edge case data sets. On paper different sorting algorithms 
+may have the same result with asymptotic analysis, but then different data sets may be favored more or less by each algorithm. For example,(using quicksort as an example because I'm more comfortable with it)
+quicksort does very poorly with an already sorted list, not just poorly, it is generally considered it's worst scenario. On the other hand, insertion sort does really well with the already sorted list,
+even though both quicksort and insertion sort are evaluated the same through asymptotic analysis.
