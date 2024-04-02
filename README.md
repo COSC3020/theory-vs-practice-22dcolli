@@ -30,3 +30,7 @@ This might eventually lead to a different outcome than the asymptotic analysis m
 may have the same result with asymptotic analysis, but then different data sets may be favored more or less by each algorithm. For example,(using quicksort as an example because I'm more comfortable with it)
 quicksort does very poorly with an already sorted list, not just poorly, it is generally considered it's worst scenario. On the other hand, insertion sort does really well with the already sorted list,
 even though both quicksort and insertion sort are evaluated the same through asymptotic analysis.
+
+#2
+
+We went over this particular problem in class I believe, and so I'll go through to the best of my understanding. We start by looking at the average complexity of any standard binary search tree($\theta$)
