@@ -33,4 +33,4 @@ even though both quicksort and insertion sort are evaluated the same through asy
 
 #2
 
-We went over this particular problem in class I believe, and so I'll go through to the best of my understanding. We start by looking at the average complexity of any standard binary search tree($\theta$)
+We went over this particular problem in class I believe, and so I'll go through to the best of my understanding. We start by looking at the average complexity of any standard binary search tree($\theta(log_n$)
