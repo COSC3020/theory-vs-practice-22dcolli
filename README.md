@@ -15,7 +15,7 @@
 
 Add your answers to this markdown file.
 
-# 1
+
 1a) The first reason I can think of as to why the asymptotic analysis may be misleading with respect to actual performace is obviously hardware.
 In many cases theory depends on the ideal conditions to any given experiment, but the one thing that varies most user to user in my mind is hardware.
 Many people can run programs much faster if the hardware is better, a computer that that is 2 months old is almost assuredly faster than the 5 year old computer
@@ -31,16 +31,16 @@ may have the same result with asymptotic analysis, but then different data sets 
 quicksort does very poorly with an already sorted list, not just poorly, it is generally considered it's worst scenario. On the other hand, insertion sort does really well with the already sorted list,
 even though both quicksort and insertion sort are evaluated the same through asymptotic analysis.
 
-# 2
 
-We went over this particular problem in class I believe, and so I'll go through to the best of my understanding. We start by looking at the average complexity of any standard binary search tree($\theta(log_n$)). Using that knowledge
+
+2)We went over this particular problem in class I believe, and so I'll go through to the best of my understanding. We start by looking at the average complexity of any standard binary search tree($\theta(log_n$)). Using that knowledge
 we are able to set up a system of equations, which would look like this $constant * log_2(1000 elements) = 5 seconds$, with this equation we find the constant to be around $.5$. Finally we plug that $.5$ into the equation with $10000$ elements which looks like
 $.5 * log_2(10000 elements)$ which calculates out to a complexity of 6-7 seconds.
 
-# 3
 
-1)
 
-2)
+3a)
 
-3)
+3b)
+
+3c)
