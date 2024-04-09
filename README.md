@@ -41,6 +41,6 @@ $.5 * log_2(10000 elements)$ which calculates out to a complexity of 6-7 seconds
 
 3a)One reason I can think of as to why the time would be so much greater relates back as to why aymptotic analysis may be misleading. My reason being that maybe you try to run the algorithm on a more simple device such as an arduino or a pi. These are very bare bones when it comes to computational power and memory, so while a full computer might follow the asymtotic analysis, 10000 items for a one of the more simple devices might be pushing what it is capabl of holding, or it may have to access and store the items differently when the number of items increases drastically.
 
-3b)Another reason is something we learned in 2030, that being the tree you are using might be unbalance
+3b)Another reason is something we learned in 2030, that being the tree you are using might be unbalanced. The tree being unbalanced would lead to navigation of said tree being less efficient than it could be, meaning that it would take more time than expected based off of asymtotic analysis alone.
 
-3c)
+3c)My final reason for a potential reason that it took way longer than expected in this scenario is the same as the first question again. It might be the case the items provide were in an order that is not favorable for the algorithm. While it might not be the edge case I talked about earlier it could be, but beyond that it would be a list that has a partially sorted segment by coincidence. Going into sorting this, we have no idea what order the items come in innitially, there is always a chance the items will be an unfavorable order by default, which could explain the 100 seconds in this example.
