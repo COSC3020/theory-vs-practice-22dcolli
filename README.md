@@ -39,8 +39,8 @@ $.5 * log_2(10000 elements)$ which calculates out to a complexity of 6-7 seconds
 
 
 
-3a)
+3a)One reason I can think of as to why the time would be so much greater relates back as to why aymptotic analysis may be misleading. My reason being that maybe you try to run the algorithm on a more simple device such as an arduino or a pi. These are very bare bones when it comes to computational power and memory, so while a full computer might follow the asymtotic analysis, 10000 items for a one of the more simple devices might be pushing what it is capabl of holding, or it may have to access and store the items differently when the number of items increases drastically.
 
-3b)
+3b)Another reason is something we learned in 2030, that being the tree you are using might be unbalance
 
 3c)
